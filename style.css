@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+--Pale_blue: hsl(225, 100%, 94%);
+--Bright_blue: hsl(245, 75%, 52%);
+--Very_pale_blue: hsl(225, 100%, 98%);
+--Desaturated_blue: hsl(224, 23%, 55%);
+--Dark_blue: hsl(223, 47%, 23%);
+}
+
+* {
+    color: var(--Desaturated_blue);
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: var(--Pale_blue);
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;    
+}
+
+main {
+    background-color: White;
+    border-radius: 1rem;
+    height: 35.4375rem ;
+    width: 20.4375rem;
+}
+
+main > img {
+    height: 10rem;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.content > * {
+    text-align: center;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+h1 {
+    color: var(--Dark_blue);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.content {
+    height: 25.4375rem;
+    width: 100%;
+    
+}
+
+.plan {
+    align-items: center;
+    background-color: var(--Very_pale_blue);
+    border-radius: 1rem;
+    display: flex;
+    height: 5.125rem;
+    justify-content: space-around;
+    width: 17.4375rem;
+}
+
+.plan > img {
+    margin: 0 1rem ;
+}
+
+.plan-time {
+    color: var(--Dark_blue);
+    font-weight: 700;
+}
+
+.plan > a {
+    color: var(--Bright_blue);
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: 0.7rem;
+}
+
+.payment {
+    background-color: var(--Bright_blue);
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 1.5rem hsl(245, 75%, 52%, 25%) ;
+    display: block;
+    height: 3.125rem ;
+    margin: 1.5rem auto;
+    width: 17.4375rem;
+}
+
+.payment > a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cancel {
+    font-weight: 700;
+    margin: 0 auto;
+}
